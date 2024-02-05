@@ -15,8 +15,8 @@ class Student:
         return self._age
 
 def main():
-    student1 = Student(name="Alice", age=18)
-    student2 = Student(name="Bob", age=17)
+    student1 = Student(name="Ethan", age=20)
+    student2 = Student(name="Das", age=30)
     
     print(f"Student 1 - Name: {student1.name}, Age: {student1.age}")
     print(f"Student 2 - Name: {student2.name}, Age: {student2.age}")
