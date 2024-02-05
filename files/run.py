@@ -6,4 +6,19 @@
 # it indeed used those functions in some meaningful way.
 # [Name of the file main file should be run.py other files/folders can be named
 # appropriately] (3 points)
-                                         
+
+from mod1 import first as one
+from mod2 import second as two
+from mod3 import third as three
+
+def demo() -> None:
+    one.function1()
+    print()
+    two.function2()
+    print()
+    three.function3()
+    
+
+if __name__ == '__main__':
+    demo()
+
