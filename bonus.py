@@ -12,3 +12,15 @@
 # student. Still contemplating the idea but I will do something. Please participate. If you have
 # attempted the bonus question the subject of the email should be “cs325 quiz-4_bonus”. Put
 # everything in the same repo.
+
+def elementLengths(arr):
+    return [len(str(element)) for element in arr]
+
+strings = input("Enter elements separated by commas: ")
+
+array = [int(x) if x.isdigit() else x for x in strings.split(',')]
+
+out = elementLengths(array)
+
+print("Input:", array)
+print("Output:", out)
